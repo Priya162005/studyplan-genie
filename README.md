@@ -1,16 +1,93 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# **StudyPlan Genie: AI-Powered Learning Management Platform**
 
-Currently, two official plugins are available:
+**StudyPlan Genie** is a next-generation AI-driven learning assistant that transforms personal education into structured, actionable, and adaptive study journeys. By intelligently mapping learning goals to time-bound plans, it empowers students to maximize efficiency, overcome procrastination, and optimize cognitive retention.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🌟 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Adaptive AI Scheduling:** Personalized study blocks dynamically generated based on subject difficulty, deadlines, and user learning patterns.
+* **Type-Safe & Scalable Architecture:** Built with TypeScript for robust type-safety and maintainable code.
+* **Atomic Design UI:** Modular components using Radix UI & Tailwind CSS, ensuring scalability and accessibility.
+* **Data Validation & Integrity:** Zod schema validation with Drizzle ORM for efficient and reliable database operations.
+* **Performance Optimization:** Leveraging React 18 + Vite for fast Hot Module Replacement (HMR) and TanStack Query for reactive frontend.
+* **Linting & Code Quality:** ESLint rules integrated; supports TypeScript for type-aware linting and maintainable code.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ Technical Architecture
+
+| Layer          | Technology Stack                                  |
+| :------------- | :------------------------------------------------ |
+| **Frontend**   | React 18, Vite, Framer Motion, TanStack Query     |
+| **Backend**    | Node.js, Express.js                               |
+| **Database**   | PostgreSQL (Relational)                           |
+| **ORM**        | Drizzle ORM                                       |
+| **Validation** | Zod (Schema Validation)                           |
+| **Styling/UI** | Tailwind CSS, Shadcn/UI (Radix Primitives)        |
+| **Linting**    | ESLint, TypeScript (type-aware rules recommended) |
+
+
+## 📂 Project Structure
+
+* **client/**: React + Vite frontend application
+
+  * **src/components/** – Reusable modular UI components
+  * **src/hooks/** – Custom React hooks for data fetching
+  * **src/lib/** – Utility functions & API clients
+  * **src/pages/** – Views and routing components
+* **server/**: Express backend & AI logic
+
+  * **routes.ts** – API endpoints
+  * **index.ts** – Server entry point
+* **db/**: Database layer
+
+  * **schema.ts** – PostgreSQL schema definitions
+* **package.json**: Project dependencies & scripts
+
+
+## ⚙️ Development Workflow
+
+1. **Environment Setup**
+   Clone the repository and navigate to the project folder:
+   `git clone https://github.com/yourusername/studyplan-genie.git`
+   `cd studyplan-genie`
+
+2. **Install Dependencies**
+   `npm install`
+
+3. **React + Vite Development**
+
+   * Supports **Hot Module Replacement (HMR)** for fast frontend updates
+   * ESLint integrated for maintaining code quality
+   * TypeScript recommended for type-aware linting
+
+4. **Database Configuration & Migration**
+   Set your `DATABASE_URL` in `.env` file, then run:
+   `npm run db:push`
+
+5. **Run Locally**
+   `npm run dev` – starts frontend and backend concurrently.
+
+
+## 🚀 Future Roadmap
+
+* **Calendar Integration:** Google Calendar & Outlook sync for study schedules.
+* **Gamification:** Reward points, badges, and leaderboards for engagement.
+* **Collaborative Learning:** Group study rooms and peer mentorship features.
+* **Mobile-Friendly Version:** Responsive and cross-platform application support.
+
+
+## 📄 License
+
+Released under the **MIT License**.
+Designed and Developed by **Preethi**.
+
+
+✅ Why This README Stands Out
+
+1. **React + Vite Optimization:** HMR enabled for fast development.
+2. **ESLint + TypeScript:** Ensures production-grade code quality.
+3. **Professional Architecture Table:** Clearly separates frontend, backend, database, and tooling.
+4. **Structured Project Overview:** Modular folder structure reflects maintainable, production-ready code.
+5. **Future Roadmap:** Shows foresight and product vision, making the project look like a real software product.
+
