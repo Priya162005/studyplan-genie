@@ -82,12 +82,8 @@
 Released under the **MIT License**.
 Designed and Developed by **Preethi**.
 
+## 🌐 Live Demo
 
-✅ Why This README Stands Out
-
-1. **React + Vite Optimization:** HMR enabled for fast development.
-2. **ESLint + TypeScript:** Ensures production-grade code quality.
-3. **Professional Architecture Table:** Clearly separates frontend, backend, database, and tooling.
-4. **Structured Project Overview:** Modular folder structure reflects maintainable, production-ready code.
-5. **Future Roadmap:** Shows foresight and product vision, making the project look like a real software product.
+🔗 **Deployed Link:**  
+https://priya162005.github.io/studyplan-genie/
 
